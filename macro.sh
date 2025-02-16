@@ -1,3 +1,5 @@
+#!/bin/bash
+
 macro(){
       export dir="$(pwd)" 
 }
