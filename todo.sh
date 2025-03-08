@@ -9,7 +9,7 @@ todo() {
 
     file="$1/$2.txt"
     
-    [[ ! -e "$1/$2.txt" ]] && touch "$file"
+    [[ ! -e "$file.txt" ]] && touch "$file"
     
     while true; do
         echo "Choose an option:"
