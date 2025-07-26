@@ -1,0 +1,14 @@
+top: lists processes iteratively
+	-b: in batch mode (no input)
+	-n: specifies iterations
+
+free -h: see memory usage in human readable size format
+
+df: list disk space
+
+ps: lists processes curently running
+	a: list of all users(by default it lists only of currnt session)
+	u: list detail and user info
+	x: list non terminal processes
+ps aux: list all processes
+	--sort=-%mem sort in dec memory ratio
