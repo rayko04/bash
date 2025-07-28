@@ -6,14 +6,14 @@ A collection of practical Bash scripts—from beginner to advanced—documented 
 
 | Project | Description |
 |--------|-------------|
-| [BackupSnap](./backup.sh)     | Creats timestamped backups of a directory |
-| [BashCalc](./calculator.sh)   | Basic arithmetic operations directly from terminal |
-| [BashTodo](./todo.sh)         | Command-line task manager |
-| [BatchUser](./userLog.sh)     | Creates system users in batch read from a file |
-| [FileCheck](./fileCheck.sh)   | Checks existence and permissions of a file |
-| [MCD](./mcd.sh)               | Combines mkdir and cd |
-| [MacroPolo](./marcoPolo.sh)   | Bookmark current directory and jump back to it later |
-| [SysMonScript](./sysMon.sh)   | Logs system resource usage |
+| [BackupSnap](./BackupSnap/backup.sh)     | Creats timestamped backups of a directory |
+| [BashCalc](./BashCalc/calculator.sh)   | Basic arithmetic operations directly from terminal |
+| [BashTodo](./BashTodo/todo.sh)         | Command-line task manager |
+| [BatchUser](./BatchUser/userLog.sh)     | Creates system users in batch read from a file |
+| [FileCheck](./FileCheck/fileCheck.sh)   | Checks existence and permissions of a file |
+| [MCD](./MCD/mcd.sh)               | Combines mkdir and cd |
+| [MacroPolo](./MacroPolo/marcoPolo.sh)   | Bookmark current directory and jump back to it later |
+| [SysMonScript](./SysMonScript/sysMon.sh)   | Logs system resource usage |
 
 
 ## 🛠️ Usage
