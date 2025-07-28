@@ -6,9 +6,9 @@
 
 - Creates and manages a TODO list in a plain `.txt` file
 - Lets you:
-  - 📌 Add new tasks
-  - 👁️ View all tasks (numbered)
-  - ❌ Delete a task by number
-  - 🔁 Replace a task by number
-  - 🚪 Exit the menu cleanly
+  - Add new tasks
+  - View all tasks (numbered)
+  - Delete a task by number
+  - Replace a task by number
+  - Exit the menu cleanly
 

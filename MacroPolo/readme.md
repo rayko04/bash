@@ -7,9 +7,4 @@
 - `macro` → Saves the **current working directory** to a variable
 - `polo`  → Returns you to the saved directory
 
-Think of it like saying:
-
-> Macro! (🗣️ Save my spot)  
-> Polo!  (📍Jump back to it)
-
 
