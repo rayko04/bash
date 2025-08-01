@@ -1,0 +1,30 @@
+==== SYS STATS: و 18:07:45 PKT ت 29 جولائی 2025 ====
+
+>> Uptime:
+ 18:07:45 up 3 days, 23:22,  1 user,  load average: 0.39, 0.39, 0.40
+
+>> Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           7.6Gi       4.6Gi       428Mi       797Mi       3.7Gi       3.0Gi
+Swap:             0B          0B          0B
+
+>> Disk:
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda2       233G  167G   55G  76% /
+devtmpfs        3.8G     0  3.8G   0% /dev
+tmpfs           3.9G   17M  3.8G   1% /dev/shm
+efivarfs        150K   76K   70K  53% /sys/firmware/efi/efivars
+tmpfs           1.6G  1.8M  1.6G   1% /run
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           3.9G   20M  3.8G   1% /tmp
+/dev/sda1      1022M  215M  808M  21% /efi
+tmpfs           780M  196K  780M   1% /run/user/1000
+
+>> Top 5 processes by memory:
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ryan      136692  2.2  7.7 3186200 616900 ?      Sl   16:16   2:32 /opt/zen-browser-bin/zen-bin -contentproc -isForBrowser -prefsHandle 0:42688 -prefMapHandle 1:275403 -jsInitHandle 2:245828 -parentBuildID 20250530102742 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {0c13a503-ec11-482b-a655-95679c8d3dda} -parentPid 136159 -greomni /opt/zen-browser-bin/omni.ja -appomni /opt/zen-browser-bin/browser/omni.ja -appDir /opt/zen-browser-bin/browser 11 tab
+ryan      136159  7.0  6.6 12167008 532856 ?     Ssl  16:11   8:07 /opt/zen-browser-bin/zen-bin
+ryan        1218  0.1  5.4 5705784 436616 ?      Ssl  جولائی25  10:26 /usr/bin/plasmashell --no-respawn
+ryan       42125  0.6  4.2 1462719196 336884 ?   Sl   جولائی28   9:49 /home/ryan/.local/share/spotify-launcher/install/usr/share/spotify/spotify --type=renderer --enable-crash-reporter=, --change-stack-guard-on-fork=enable --user-data-dir=/home/ryan/.cache/spotify --log-severity=disable --user-agent-product=Chrome/134.0.6998.178 Spotify/1.2.63.394 --no-sandbox --autoplay-policy=no-user-gesture-required --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1753656444044935 --launch-time-ticks=52961132875 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,591484990867796660,7908366184270747250,262144 --disable-features=BackForwardCache,EyeDropper,PartitionAllocDanglingPtr,PartitionAllocUnretainedDanglingPtr --variations-seed-version
+ryan      136491  5.6  4.2 2983012 335436 ?      Sl   16:12   6:30 /opt/zen-browser-bin/zen-bin -contentproc -isForBrowser -prefsHandle 0:42579 -prefMapHandle 1:275403 -jsInitHandle 2:245828 -parentBuildID 20250530102742 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {725fcc0d-848a-43c0-a1eb-f5c724211cfd} -parentPid 136159 -greomni /opt/zen-browser-bin/omni.ja -appomni /opt/zen-browser-bin/browser/omni.ja -appDir /opt/zen-browser-bin/browser 10 tab
+HIGH CPU: 4.8%

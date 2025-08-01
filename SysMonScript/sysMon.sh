@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 LOG_DIR="/home/ryan/codin/bash/SysMonScript/logs"
 

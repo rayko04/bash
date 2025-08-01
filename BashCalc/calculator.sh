@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 calc(){
 	if [[ $# -ne 3	]]; then

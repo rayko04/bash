@@ -14,6 +14,7 @@ A collection of practical Bash scripts—from beginner to advanced—documented 
 | [MCD](./MCD/mcd.sh)               | Combines mkdir and cd |
 | [MacroPolo](./MacroPolo/marcoPolo.sh)   | Bookmark current directory and jump back to it later |
 | [SysMonScript](./SysMonScript/sysMon.sh)   | Logs system resource usage |
+| [SysMonDash](./SysMonDash/dash.sh)   | Logs system resource usage with alerts, interactive controls and log rotations |
 
 
 ## 🛠️ Usage

@@ -1,4 +1,4 @@
-#!/bin/env bash
+#!/usr/bin/env bash
 
 todo() {
     if [[ $# -ne 2 ]]; then
