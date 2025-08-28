@@ -1,10 +1,10 @@
-# 🖥️ SysMonDash - Bash System Monitor Dashboard
+# SysMonDash - Bash System Monitor Dashboard
 
 A lightweight Bash-based system monitoring tool that logs CPU, RAM, and disk usage with alerts, interactive controls, and log rotation.
 
 ---
 
-## 📋 Features
+## Features
 
 -  **Threshold Alerts** with `notify-send` or console fallback  
 -  **CSV Logging** of CPU, RAM, and Disk usage  
@@ -18,7 +18,7 @@ A lightweight Bash-based system monitoring tool that logs CPU, RAM, and disk usa
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 You can tweak thresholds and timing inside the script:
 

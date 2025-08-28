@@ -1,10 +1,10 @@
-# 🖥️ System Monitor Script
+# System Monitor Script
 
 A simple Bash script that logs system resource usage — CPU, memory, disk space, and top memory-consuming processes — to timestamped log files. Great for practicing Bash scripting and basic system administration!
 
 ---
 
-## 🚀 Features
+## Features
 
 - Logs:
   - CPU usage

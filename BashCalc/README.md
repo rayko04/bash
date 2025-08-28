@@ -1,8 +1,8 @@
-# 🧮 BashCalc — A Simple Shell Calculator Function
+# BashCalc — A Simple Shell Calculator Function
 
 `BashCalc` is a lightweight Bash function that performs basic arithmetic operations directly from the terminal. It supports addition, subtraction, multiplication, and division — all using standard Bash syntax and minimal dependencies.
 
-## 📌 Features
+## Features
 
 - Simple usage: pass two numbers and an operator
 - Supports: `+`, `-`, `*`, `/`

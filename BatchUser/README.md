@@ -1,4 +1,4 @@
-# 👥 BatchUser — Bulk Linux User Creation Script
+# BatchUser — Bulk Linux User Creation Script
 
 `BatchUser` is a Bash script that reads a list of usernames from a file and creates them as system users. It logs whether each user was created or already existed.
 
@@ -6,7 +6,7 @@ This script is useful for sysadmins, instructors, or anyone who needs to create 
 
 ---
 
-## 📂 What It Does
+## What It Does
 
 - Reads usernames from a file (`user.txt`)
 - Checks if each user already exists

@@ -1,8 +1,8 @@
-# 🐚 Bash Projects
+# Bash Projects
 A collection of practical Bash scripts—from beginner to advanced—documented and organized for learning and system automation.
 
 
-## 📂 Projects Overview
+## Projects Overview
 
 | Project | Description |
 |--------|-------------|
@@ -18,13 +18,13 @@ A collection of practical Bash scripts—from beginner to advanced—documented 
 | [SysMonScript](./SysMonScript/sysMon.sh)   | Logs system resource usage |
 
 
-## 🛠️ Usage
+## Usage
 
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/bash-projects.git
-cd bash-projects/project-folder
+git clone https://github.com/rayko04/bash
+cd bash/script
 bash script.sh
 ```
 
@@ -34,12 +34,12 @@ Make sure it is executeable:
 chmod +x script.sh
 ``` 
 
-## 🎯 Goal
+## Goal
 
 To learn and demonstrate Bash scripting skills through real-world mini projects like monitoring, automation, file handling, and more.
 
 
-## ⚙️ Tools / Technologies
+## Tools / Technologies
 
 - Bash (GNU Bash 5+)
 - `cron` for scheduled tasks
@@ -47,7 +47,7 @@ To learn and demonstrate Bash scripting skills through real-world mini projects 
 - `top`, `ps`, `df`, `free` for system stats
 
 
-## 👤 Author
+## Author
 
 **Rayyan (Rayko)**  
 Student, Linux tinkerer, Bash enthusiast
