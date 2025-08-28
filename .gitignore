@@ -1,1 +1,4 @@
 ./SysMonScript/logs/
+./bash-progress-bar/bar/
+./bash-progress-bar/baz/
+./bash-progress-bar/foo/

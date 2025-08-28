@@ -1,0 +1,49 @@
+#!/usr/bin/env bash
+
+BATCH_SIZE=5
+
+progress-bar() {
+	local current=$1
+	local len=$2
+	
+	local barchar='+'
+	local emptychar='.'
+	local length=50						#limiting num of bars to 50 instead of 100
+	local perc_done=$((current*100/len))
+	local num_bars=$((perc_done * length / 100))
+	
+	local i
+	local s='['
+	for ((i = 0; i < num_bars; i++)); do
+		s+=$'\e[30m'$barchar$'\e[0m'
+	done
+
+	for ((i = num_bars; i < length; i++)); do
+		s+=$'\e[31m'$emptychar$'\e[0m'
+	done
+
+	s+=']'
+
+	echo -ne "$s  $current/$len ($perc_done%)\r"	#-n: no new line, -e: interpret backslash char, \r: carriage ret
+}
+
+process-files() {		#func where we do whatever with found files
+	local files=('$@')
+
+	sleep .01
+}
+
+shopt -s globstar nullglob	#nullglob ensures empty array forms in case of no match
+
+echo 'finding files'
+
+files=(./**/*cache)
+len=${#files[@]}
+echo "found $len files"
+
+for ((i = 0; i  < len; i += BATCH_SIZE)); do
+	progress-bar "$((i+1))" "$len"
+	process-files "${files[@]:i:BATCH_SIZE}"		#subarray of files from i to batchSize
+done
+
+echo 
